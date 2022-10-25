@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "title": "Machine Learning",
+        "price": 109.95,
+        "details": "Machine learning (ML) is a type of artificial intelligence (AI) that allows software applications to become more accurate at predicting outcomes without being explicitly programmed to do so. Machine learning algorithms use historical data as input to predict new output values. Recommendation engines are a common use case for machine learning. Other popular uses include fraud detection, spam filtering, malware threat detection, business process automation (BPA) and Predictive maintenance.",
+        "category": "MachineLearning",
+        "image": "https://teorema-rd.com/storage/2020/06/machine-learning-espana.jpg",
+        "date": "2022-16-26",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Data Science",
+        "price": 22.3,
+        "details": "Data Science is the most challenging field of the 21st generation. Every type of IT industry is looking for candidates with knowledge of data science. We are providing the basic and some advanced concepts related to the operation that can be performed upon the data with the help of different technologies",
+        "category": "dataScience",
+        "image": "https://juristecplus.com/wp-content/uploads/2022/03/Data-Science.jpg",
+        "date": "2020-11-06",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Software Engineering",
+        "price": 55.99,
+        "details": "The software has become critical to advancement in almost all areas of human endeavor. The art of programming is no longer enough to construct large programs. There are serious problems with the cost, timeliness, maintenance, and quality of many software products. Software engineering aims to solve these problems by producing good quality software that is in budget and maintained on time. We must focus on the quality of the product and the process used to produce the product decently.",
+        "category": "SoftEngi",
+        "image": "https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2020/09/04184424/How-to-Become-a-Software-Engineer.jpg",
+        "date": "2019-06-26",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Computer Network",
+        "price": 15.99,
+        "details": "Data Communication is the process of exchanging digital data between two or more computers that act as source and receiver through wireless media or transmission media such as a wire cable. This Data communication process goes through a telecommunication network known as Computer Network that allows computers to exchange data.",
+        "category": "CN",
+        "image": "https://bournetocode.com/projects/GCSE_Computing_Fundamentals/pages/img/computer-network.jpg",
+        "date": "2022-06-06",
+        "rating": {
+            "rate": 4.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "Database Management System(DBMS)",
+        "price": 695,
+        "details": "Database Management System (DBMS) tutorial is all about managing and maintaining the data effectively.",
+        "category": "DBMS",
+        "image": "https://phoenixnap.com/kb/wp-content/uploads/2021/07/how-a-dbms-works.png",
+        "date": "2020-06-06",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Learn Python",
+        "price": 168,
+        "details": "Python tutorial is a widely used programming language which helps beginners and professionals to understand the basics of Python programming easily.",
+        "category": "Python",
+        "image": "https://www.online-tech-tips.com/wp-content/uploads/2021/11/New-Featured-Image.jpg",
+        "date": "2021-12-06",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    }
+]
