@@ -1,11 +1,25 @@
 const express = require('express');
 const app = express();
-const port = 5000;
+const cors = require('cors');
+app.use(cors());
+
+const port = process.env.PORT || 5000;
+const tutorialData = require("./data/tutorials.json");
 
 
 app.get('/', (req, res) => {
-    res.send('Server data is running');
-})
+    res.send('Server data is running in port 5000');
+});
+
+// dynamic fetch with id.
+app.get('/tutorial/:id', (req, res) => {
+    const id = req.params.id;
+    const getSingleTutorial = tutorialData.find(tutorial => tutorial.id == id);
+    if (!getSingleTutorial) {
+        res.send("No data found");
+    }
+    res.send(getSingleTutorial);
+});
 
 app.listen(port, () => {
     console.log("The server is running on the ", port);
