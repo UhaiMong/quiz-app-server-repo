@@ -5,11 +5,16 @@ app.use(cors());
 
 const port = process.env.PORT || 5000;
 const tutorialData = require("./data/tutorials.json");
+const courseName = require("./data/course-name.json");
 
 
 app.get('/', (req, res) => {
     res.send('Server data is running in port 5000');
 });
+
+app.get('/course-name', (req, res) => {
+    res.send(courseName);
+})
 
 // dynamic fetch with id.
 app.get('/tutorial/:id', (req, res) => {
